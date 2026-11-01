@@ -6,7 +6,7 @@ Deep Learning & AI, Peking University · October 2026 · individual work
 
 ![Validation accuracy by epoch for four configurations](figure.png)
 
-A 2 × 2 ablation on Dogs vs. Cats (15,000 training and 10,000 validation images): batch normalization on/off crossed with data augmentation (padded random crop + horizontal flip) on/off. Every arm uses the same 319,874-parameter CNN (three convolutional blocks, Kaiming initialization), the same random seed and batch order, and Adam with learning rate 10⁻³ for 30 epochs. Parameter counts were checked by hand against the model summary.
+A 2 × 2 ablation on Dogs vs. Cats (15,000 training and 10,000 validation images): batch normalization on/off crossed with data augmentation (padded random crop + horizontal flip) on/off. Every arm uses the same CNN (319,650 parameters; 319,874 with BatchNorm) (three convolutional blocks, Kaiming initialization), the same random seed and batch order, and Adam with learning rate 10⁻³ for 30 epochs. Parameter counts were checked by hand against the model summary.
 
 | Configuration | Best validation accuracy | Final (epoch 30) |
 |---|---|---|
