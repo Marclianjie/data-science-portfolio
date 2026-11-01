@@ -2,6 +2,8 @@
 
 Machine Learning & AI, Peking University · October 2026 · individual work
 
+**Report:** [report.pdf](report.pdf)
+
 ![Cross-validated accuracy by model](figure.png)
 
 Predict whether a shopper buys Citrus Hill or Minute Maid orange juice from 1,070 purchases (the *OJ* data from ISLP; Stine, Foster & Waterman, 1998), with an evaluation protocol that cannot leak information from the test set.
